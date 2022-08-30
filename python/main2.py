@@ -55,7 +55,8 @@ print("Running torch...")
 torch_time, _ = show_time(run_torch)
 print("Torch time:  {:.3f}us".format(np.mean(torch_time)))
 
-
+print(a)
+print(b)
 # print(cuda_c)
-# nn_cuda.torch_launch_add2(cuda_c, a, b, n)
-# print(cuda_c)
+nn_cuda.torch_launch_add2(cuda_c, a, b, n)
+print(cuda_c)
